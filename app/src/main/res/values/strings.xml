@@ -1,0 +1,23 @@
+<resources xmlns:ns1="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Front Scan</string>
+    <string name="captured_id_title">Recognized Document</string>
+    <string name="error_title">Error Encountered</string>
+    <string name="result_button_resume">Resume</string>
+    <string name="document_not_supported_message">Document not supported</string>
+    <color name="mapbox_notification_blue">#2D4E73</color>
+    <color name="mapbox_notification_turn_icon_color">#FFFFFF</color>
+    <color name="mapbox_notification_turn_icon_shadow_color">#A8A8A8</color>
+    <dimen name="mapbox_notification_maneuver_image_height">48dp</dimen>
+    <dimen name="mapbox_notification_maneuver_image_width">48dp</dimen>
+    <plurals name="mapbox_number_of_days" ns1:ignore="MissingTranslation">
+        <item quantity="one">day</item>
+        <item quantity="other">days</item>
+    </plurals>
+    <string name="mapbox_end_navigation">End Navigation</string>
+    <string name="mapbox_eta_format" ns1:ignore="MissingTranslation">%s ETA</string>
+    <string name="mapbox_free_drive_session" ns1:ignore="MissingTranslation">Free Drive Session</string>
+    <string name="mapbox_navigation_is_starting" ns1:ignore="MissingTranslation">Navigation is starting…</string>
+    <string name="mapbox_stop_session" ns1:ignore="MissingTranslation">Stop session</string>
+    <string name="mapbox_unit_hr" ns1:ignore="MissingTranslation">hr</string>
+    <string name="mapbox_unit_min" ns1:ignore="MissingTranslation">min</string>
+</resources>

@@ -1,0 +1,32 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+            authentication {
+                basic(BasicAuthentication)
+            }
+            credentials {
+                // Do not change the username below.
+                // This should always be `mapbox` (not your username).
+                username = "mapbox"
+                // Use the secret token you stored in gradle.properties as the password
+                password = "sk.eyJ1IjoiYWlycG9ydHIiLCJhIjoiY2xzbjVkNHl0MDBrZDJqbnN4ODZqMXl0dSJ9.LwpxzMD93z8J7V6SyZ6eVw"
+//                password = "sk.eyJ1IjoibW9oc2luaWtyYW0iLCJhIjoiY2xrczl4a3Y5MDExODNlcWYxdGJxdW02ciJ9.Sbbs0WYZlHMzODeUMysGpw"
+            }
+        }
+    }
+
+}
+rootProject.name = "IDCardCaptureSample"
+include ':app'
